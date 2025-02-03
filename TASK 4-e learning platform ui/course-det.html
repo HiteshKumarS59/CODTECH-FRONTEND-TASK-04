@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Course Details</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Course Details</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="course.html">Courses</a>
+        </nav>
+    </header>
+
+    <section class="course-content">
+        <!-- Course 1: Web Development -->
+        <h2 id="course-title">Web Development Basics</h2>
+        <p id="course-description">Learn how to build websites from scratch using HTML, CSS, and JavaScript.</p>
+        
+        <!-- Embed YouTube video for Web Development -->
+        <div class="video-container">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+
+        <button onclick="markCompleted()">Mark as Completed</button>
+        <hr>
+
+        <!-- Course 2: Machine Learning -->
+        <h2 id="course-title">Machine Learning Basics</h2>
+        <p id="course-description">Learn the fundamentals of Machine Learning and how to implement algorithms using Python.</p>
+
+        <!-- Embed YouTube video for Machine Learning -->
+        <div class="video-container">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/2ePf9rue1Ao" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+
+        <button onclick="markCompleted()">Mark as Completed</button>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 E-Learning Platform</p>
+    </footer>
+</body>
+</html>

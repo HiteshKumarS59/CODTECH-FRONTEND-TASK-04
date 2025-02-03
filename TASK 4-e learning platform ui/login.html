@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Login</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="register.html">Register</a>
+        </nav>
+    </header>
+
+    <section class="auth-container">
+        <h2>Login to Your Account</h2>
+        <input type="email" id="login-email" placeholder="Email" required>
+        <input type="password" id="login-password" placeholder="Password" required>
+        <button id="login-button">Login</button> <!-- Add id for the login button -->
+        <p id="login-error" class="error-message"></p>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 E-Learning Platform</p>
+    </footer>
+
+    <!-- Import the script -->
+    <script type="module">
+        import { login } from "./auth.js";  // Import the login function
+        window.login = login;  // Make login globally accessible
+
+        // Add event listener for login button
+        document.getElementById('login-button').addEventListener('click', login);
+    </script>
+</body>
+</html>
