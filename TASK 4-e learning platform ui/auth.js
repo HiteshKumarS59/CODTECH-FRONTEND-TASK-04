@@ -4,13 +4,13 @@ import { getAuth, createUserWithEmailAndPassword, signInWithEmailAndPassword, si
 
 // Firebase Config (Replace with your actual Firebase config)
 const firebaseConfig = {
-    apiKey: "AIzaSyDiLKJaWuas9qlpiS6cYUSbTWtxzOLTxVw",
-    authDomain: "e-learning-platform-5c6ca.firebaseapp.com",
-    projectId: "e-learning-platform-5c6ca",
-    storageBucket: "e-learning-platform-5c6ca.firebasestorage.app",
-    messagingSenderId: "654139128820",
-    appId: "1:654139128820:web:eaeac6042ab14a8ce817a1"
-  };
+            apiKey: "YOUR_API_KEY",
+            authDomain: "YOUR_AUTH_DOMAIN",
+            projectId: "YOUR_PROJECT_ID",
+            storageBucket: "YOUR_STORAGE_BUCKET",
+            messagingSenderId: "YOUR_MESSAGING_SENDER_ID",
+            appId: "YOUR_APP_ID"
+        };
   
 
   const app = initializeApp(firebaseConfig);
